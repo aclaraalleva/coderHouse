@@ -1,0 +1,57 @@
+// Sirena programar react | Angular
+//cowork1234 => pass
+
+Javascript valida del lado del cliente. hace a las webs dinamicas. (netskape 1995) primero del lado del cliente y tambien del lado del servidor. 
+
+1) como incluir el archivo.
+2) muestro cosas en la consola con console.log();
+
+Algoritmo BASE DE PROGRAMACION
+secuencia de pasos logicos ordenados con datos de entrada, procesos en el medio y datos de salidas.
+
+ej. como hacer un cafe:
+
+datos de entrada: ingredientes
+proceso: poner agua, azucar ..
+resultado: cafe
+
+variable: un lugar en la memoria donde se guardan datos. y puedo volver a acceder a ellos. Defino la variable con la palabra reservada VAR y luego el nombre de la variable.
+
+parseFloat parseInt =buscar
+
+tiene que ser ordenado el js porque lee de arriba para abajo. declaramos variables arriba. asignamos y luego las usamos. cuando cambiamos una variable lo hacemos antes de usarlas. Tiene que haber un orden logico.
+
+Tipos de datos:
+string = 'letras dentro de comillas simples'
+variables: letras, _ nunca comienzan con numeros. NO SE PASAN VARIABLES CON NUMEROS ADELANTE SI ATRAS.
+booleanos, true o false
+number: enteros y decimales
+
+si tenes un string con un numero que multiplica a un number js convierte el string en numero y lo multiplica. pero cuando se suma un texto o un numero lo que hace es concatenar no operar matematicamente.
+
+Cuando hacemos string * 2= devuelve un NAN not a number. cuando falla una operacion matematica.
+
+booleano: ej si prendo la luz es true porque esta prendida si apago esta en false.
+
+UNDEFINED= cuando no esta definido. quiero acceder a una caja que no tiene contenido. no tieen valor adentor.
+
+NULL= la variable existe pero no tiene nada adentro.
+
+var array = [] Es como un trencito que contiene cosas en los vagones.
+
+palabras reservadas: solo se usan para sus funciones no puedo nombrarlas de forma que contradigan su funcion original. ej var = var;
+
+objeto => POR EJ EL OBJETO PERSONA. comparte en comun con otros iguales ciertos datos.
+
+no se usa mas punto y coma en el JS
+
+==============
+
+los objeto === objeto da false porque deben apuntar al mismo lado para compararlos.
+
+a las variables cuando se les asigna un array o un objeto en realidad a la variable no se le asigna un valor sino una dirección a un lugar en la memoria. Por eso si comparo con === dos objetos o arrays me va a dar false porque ambos apuntan cada uno a su lugar en la memoria.
+
+OPERADORES LOGICOS
+
+
+
