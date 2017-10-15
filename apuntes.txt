@@ -53,5 +53,13 @@ a las variables cuando se les asigna un array o un objeto en realidad a la varia
 
 OPERADORES LOGICOS
 
+--
+
+tabla ascci
+elcodigoascci.com.ar
+
+
+si un string lo compara con otro lo compara con la tabla aski y ve en que lugar de esa tabla esta y dice si es menor o mayor.
+
 
 
