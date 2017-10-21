@@ -1,0 +1,36 @@
+# FUNCIONES
+
+Nos permite reutilizar código.
+
+## EJEMPLO DE FUNCION
+
+function nombreDeFuncion {
+
+	//codigo a ejecutar
+
+}
+
+## COMO LLAMO A LA FUNCION
+
+nombreDeFuncion()
+
+No importa el orden en donde escribo la función. JavaScript lleva a la funcion donde la declaré. Es mejor escribir abajo a las funciones. 
+
+* CAJA BLANCA: se como funciona las cosas.
+* CAJA NEGRA: no se que hace para que funcione.
+
+Los parametros que le paso cuando llamo a la funcion, son transformados en variables dentro de la función.
+
+el return sierve para que la funcion devuelva el valor y cuando afuera quiera llamarla me devuelva el valor. Es para que tenga sentido llamar a la funcion.
+
+En el return pudo poner cualquier cosa: booleano, number, string, objeto, etc.
+
+# SCOPE
+
+## SCOPE GLOBAL
+
+se accede de cualquier parte del programa.Generalmente se escriben en mayusculas.
+
+## SCOPE LOCAL
+
+todo lo que declaro dentro de una funcion existen solo dentro de la función. 
