@@ -19,7 +19,7 @@ function pedirNombre (firstName, lastName) {
 	console.log('Tu nombre es ' + firstName + ' y tu apellido es ' + lastName);
 }
 
-pedirNombre(firstName,lastName);
+//pedirNombre(firstName,lastName);
 
 // FORMA DOS DE VER LO MISMO
 
@@ -29,7 +29,7 @@ function pedirNombre2 () {
 	console.log('Tu nombre es ' + firstName + ' y tu apellido es ' + lastName);
 }
 
-pedirNombre2();
+//pedirNombre2();
 
 /*
 
@@ -49,7 +49,7 @@ function dayOfTheWeek() {
 	}
 }
 
-dayOfTheWeek();
+//dayOfTheWeek();
 
 
 function dayOfTheWeek2() {
@@ -74,9 +74,9 @@ function dayOfTheWeek2() {
 } 
 }
 
-dayOfTheWeek2();
-dayOfTheWeek2();
-dayOfTheWeek2();
+//dayOfTheWeek2();
+//dayOfTheWeek2();
+//dayOfTheWeek2();
 
 // ejercicio 3
 
@@ -104,4 +104,79 @@ function damePalabra() {
 	console.log('La palabra esta bien'); 
 }
 
-damePalabra();
+//damePalabra();
+
+/* CALCULADORA */
+
+
+//    Se le pedirá que ingrese la operación a realizar Sum, Res, Mul, Div.
+ //   Se le pedirán al usuario 2 valores, en caso de elegir la división hay que verificar que el usuario no elija el cero como divisor, si es así se le volverá a pedir el segundo número.
+ //   Crear una función que reciba los dos parámetros que ingresó el usuario y la operación elegida, la función tiene que devolver un mensaje en consola con el resultado.
+ //   Llamar a la función con los parámetros ingresados por el usuario.
+
+
+function sum () {
+	var value1 = prompt('escribí un número');
+	var parsedNumber1 = parseFloat(value1, 10)
+	var value2 = prompt('poné otro numero');
+	var parsedNumber2 = parseFloat(value2, 10);
+	var resultadoSuma = parsedNumber1 + parsedNumber2;
+	alert('El resultado de la suma es ' + resultadoSuma);
+}
+
+//sum();
+
+function res () {
+		var value1 = prompt('escribí un número');
+	var parsedNumber1 = parseFloat(value1, 10)
+	var value2 = prompt('poné otro numero');
+	var parsedNumber2 = parseFloat(value2, 10);
+	var resultadoResta = parsedNumber1 - parsedNumber2;
+	alert('El resultado de la resta es ' + resultadoResta);	
+}
+
+//res();
+
+function mul () {
+	var value1 = prompt('escribí un número');
+	var parsedNumber1 = parseFloat(value1, 10)
+	var value2 = prompt('poné otro numero');
+	var parsedNumber2 = parseFloat(value2, 10);
+	var resultadoMult = parsedNumber1 * parsedNumber2;
+	alert('El resultado de la Multiplicacion es ' + resultadoMult);
+}
+
+//mul();
+
+function div () {
+	var value1 = prompt('escribí un número');
+	var parsedNumber1 = parseFloat(value1, 10)
+
+
+	do {
+		var value2 = prompt('poné otro numero');
+	var parsedNumber2 = parseFloat(value2, 10);    		
+	}
+	while (parsedNumber2 === 0);
+	var resultadodiv = parsedNumber1 / parsedNumber2;
+	    alert('El resultado de la division es ' + resultadodiv);
+}
+
+
+function elegirOperacion() {
+	var operacion = prompt('Elegí una Operacion');
+	
+	if (operacion === 'suma') {
+		sum();
+	} else if (operacion === 'resta') {
+		res();	
+	} else if (operacion === 'multiplicacion') {
+		mul();
+	} else if (operacion === 'division') {
+		div();
+	} else {
+		console.log('caca');
+	}
+}
+
+elegirOperacion();
